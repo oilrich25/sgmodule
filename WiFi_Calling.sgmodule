@@ -1,0 +1,10 @@
+#!name=Wi-Fi Calling
+#!desc=Wi-Fi Calling Settings
+
+[General]
+include-cellular-services = true
+use-local-host-item-for-proxy = true
+
+[Rule]
+DOMAIN,epdg.epc.mnc006.mcc255.pub.3gppnetwork.org,DIRECT // Wi-Fi Calling
+DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,DIRECT // Wi-Fi Calling
